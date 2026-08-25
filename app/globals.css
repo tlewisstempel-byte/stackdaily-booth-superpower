@@ -31,10 +31,10 @@ h1 em, h2 em { color: #ef4538; font-style: normal; }
 .hero-copy-block .button { margin-left: auto; margin-right: auto; }
 .hero-copy, .section-lead { max-width: 600px; color: #c0bfbb; font-size: clamp(18px, 1.7vw, 23px); line-height: 1.35; letter-spacing: -.025em; }
 .hero-copy { margin-bottom: 34px; }
-.button { display: inline-flex; align-items: center; justify-content: space-between; min-height: 58px; gap: 42px; padding: 0 22px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .025em; text-decoration: none; transition: transform .25s ease, box-shadow .25s ease; }
+.button { display: inline-flex; align-items: center; justify-content: space-between; min-height: 58px; gap: 42px; padding: 0 22px; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; font-size: 10px; font-weight: 700; letter-spacing: .09em; text-decoration: none; text-transform: uppercase; box-shadow: inset 0 1px rgba(255,255,255,.14); transition: transform .25s ease, box-shadow .25s ease, background .25s ease; }
 .button:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,.3); }
-.button-light { background: #f1f0ec; color: #0a0a0a; }
-.button-red { background: #e94638; color: #fff; }
+.button-light { background: #f1f0ec; border-color: rgba(255,255,255,.7); color: #0a0a0a; box-shadow: inset 0 1px rgba(255,255,255,.95), 0 8px 24px rgba(0,0,0,.12); }
+.button-red { background: #e94638; border-color: rgba(255,139,127,.42); color: #fff; box-shadow: inset 0 1px rgba(255,255,255,.2), 0 8px 24px rgba(239,69,56,.13); }
 .button-small { min-height: 46px; padding: 0 16px; gap: 18px; font-size: 9px; }
 .hero-object, .path-panel { border: 1px solid rgba(255,255,255,.18); background: linear-gradient(145deg, rgba(255,255,255,.1), rgba(255,255,255,.025) 52%, rgba(239,69,56,.06)); box-shadow: 0 26px 80px rgba(0,0,0,.35), inset 0 1px rgba(255,255,255,.12); }
 .hero-object { position: relative; z-index: 0; top: auto; right: auto; width: 100%; min-height: 410px; border-radius: 18px; overflow: hidden; transform: translate(24px, -38px) rotate(3deg); opacity: 1; }

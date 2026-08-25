@@ -41,7 +41,7 @@ export default function Home() {
 
     <section className="section faq-section" id="faq"><div className="section-label"><span>04</span><span>FAQ</span></div><div className="faq-layout"><div><h2>WHAT<br /><em>YOU</em><br />NEED TO KNOW.</h2></div><div className="faq-list">{faqs.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></div></section>
 
-    <section className="book-section" id="book"><div className="eyebrow">StackDaily / Next step</div><h2>MAKE YOUR BOOTH<br />YOUR <em>SUPERPOWER.</em></h2><p>Bring the event, the product and the audience. We’ll map the activation.</p><a className="button button-light" href="/book">TALK TO US TO MAKE YOUR BOOTH YOUR SUPERPOWER <span>→</span></a><small>Demo flow. Your content and rewards are agreed before launch.</small></section>
+    <section className="book-section" id="book"><div className="eyebrow">StackDaily / Next step</div><h2>MAKE YOUR BOOTH<br />YOUR <em>SUPERPOWER.</em></h2><p>Tell us the event you're exhibiting at and we will ensure that it creates maximum value for you.</p><a className="button button-red" href="/book">TALK TO US TO MAKE YOUR BOOTH YOUR SUPERPOWER <span>→</span></a></section>
 
     <footer><a className="wordmark" href="#top" aria-label="StackDaily"><span>stac<span>k</span></span><small>daily</small></a><span>EVENT ACTIVATION / 01</span></footer>
   </main>;
