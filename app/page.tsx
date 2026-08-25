@@ -29,7 +29,7 @@ export default function Home() {
 
     <section className="hero" id="top">
       <div className="eyebrow">StackDaily / Booth campaigns</div>
-      <div className="hero-grid"><div className="hero-copy-block"><h1>YOUR BOOTH<br />SHOULD KEEP WORKING<br /><em>AFTER THE EVENT.</em></h1><p className="hero-copy">You spend serious money to get people to your booth. We build what happens after they leave so that attention turns into continued value for you.</p></div><div className="hero-object"><div className="object-label"><span>STACKDAILY / LIVE</span><span>01</span></div><div className="object-content"><span className="object-kicker">AFTER THE EVENT</span><strong>WHAT<br />HAPPENS<br />NEXT.</strong><small>Action / Reward / Value</small></div><div className="object-footer"><span>Attention</span><b>→</b><span>Continued value</span></div></div></div>
+      <div className="hero-grid"><div className="hero-copy-block"><h1>YOU JUST SPENT<br />FIVE FIGURES<br />ON A BOOTH.<br /><em>WHAT HAPPENS<br />AFTER THEY LEAVE?</em></h1><p className="hero-copy">We build what happens next, so your booth keeps creating value after the event.</p></div><div className="hero-object"><div className="object-label"><span>STACKDAILY / LIVE</span><span>01</span></div><div className="object-content"><span className="object-kicker">AFTER THE EVENT</span><strong>WHAT<br />HAPPENS<br />NEXT.</strong><small>Action / Reward / Value</small></div><div className="object-footer"><span>Attention</span><b>→</b><span>Continued value</span></div></div></div>
       <div className="scroll-cue"><span>SCROLL TO SEE THE FLOW</span><span>↓</span></div>
     </section>
 
