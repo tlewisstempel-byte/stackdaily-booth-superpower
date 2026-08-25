@@ -29,7 +29,7 @@ export default function Home() {
 
     <section className="hero" id="top">
       <div className="eyebrow">StackDaily / Sponsor activation</div>
-      <div className="hero-grid"><div className="hero-copy-block"><h1>TURN THE PEOPLE<br />THAT COME TO YOUR BOOTH<br />INTO YOUR <em>SUPERPOWER.</em></h1><p className="hero-copy">We build a path for every person that comes to your booth to deliver value back to you.</p><a className="button button-light" href="#activation">SEE HOW IT WORKS <span>↓</span></a></div><div className="hero-object"><div className="object-label"><span>STACKDAILY / LIVE</span><span>01</span></div><div className="object-content"><span className="object-kicker">YOUR BOOTH VISITOR</span><strong>CHOOSE<br />A PATH.</strong><small>Creator / Builder / Investor</small></div><div className="object-footer"><span>Product action</span><b>→</b><span>Reward</span></div></div></div>
+      <div className="hero-grid"><div className="hero-copy-block"><h1>TURN THE PEOPLE<br />THAT COME TO YOUR BOOTH<br />INTO YOUR <em>SUPERPOWER.</em></h1><p className="hero-copy">We build a path for every person that comes to your booth to deliver value back to you.</p></div><div className="hero-object"><div className="object-label"><span>STACKDAILY / LIVE</span><span>01</span></div><div className="object-content"><span className="object-kicker">YOUR BOOTH VISITOR</span><strong>CHOOSE<br />A PATH.</strong><small>Creator / Builder / Investor</small></div><div className="object-footer"><span>Product action</span><b>→</b><span>Reward</span></div></div></div>
       <div className="scroll-cue"><span>SCROLL TO SEE THE FLOW</span><span>↓</span></div>
     </section>
 
