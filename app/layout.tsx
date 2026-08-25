@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Booth Superpower | StackDaily",
-  description: "Turn the people that come to your booth into your superpower."
+  description: "Turn your booth visitors into your superpower."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
