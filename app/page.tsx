@@ -12,9 +12,9 @@ const paths: Record<PathId, { label: string; title: string; copy: string; action
 
 const faqs = [
   ["Where does the flow start?", "The content plan starts the conversation before the event. A person can reserve a path from that content or enter from the booth QR code."],
-  ["What does StackDaily build?", "We build the page, the content plan, the path logic and the sponsor handoff. Outbound can be added for a higher-touch package."],
-  ["How does this sit alongside event quest tools?", "Event quest tools handle event mechanics. StackDaily handles the sponsor-specific story, product action and lead nurture around the booth."],
-  ["What does the team have to do on the day?", "Put the QR code where people can see it and tell them to choose a path. The digital flow carries the rest."]
+  ["What does StackDaily build?", "We build the page, the content plan, the path logic and the handoff to you. Outbound can be added for a higher-touch package."],
+  ["How does this sit alongside event quest tools?", "Event quest tools handle event mechanics. StackDaily handles your story, the product action and the lead nurture around the booth."],
+  ["What does your team have to do on the day?", "Put the QR code where people can see it and tell them to choose a path. The digital flow carries the rest."]
 ];
 
 export default function Home() {
@@ -39,9 +39,9 @@ export default function Home() {
 
     <section className="section entry-section" id="after-event"><div className="section-label"><span>03</span><span>AFTER THE BOOTH</span></div><div className="section-grid"><div><h2>THEY LEAVE<br />WITH VALUE.<br />YOU RECEIVE <em>VALUE.</em></h2></div><div><p className="section-lead">A booth visit should not end with generic information and a form to fill out.</p><p className="section-copy">Different attendees take different paths. They complete the action that fits them after they leave and unlock the reward you set. You receive the completed action and a clearer signal of what they care about.</p><div className="feature-row"><div><span>THEIR REWARD</span><p>A reason to complete the next step after the booth.</p></div><div><span>YOUR RETURN</span><p>A useful action and a clear reason to follow up.</p></div></div><div className="cta-row"><a className="button button-red button-small" href="/book">TALK TO US TO MAKE YOUR BOOTH YOUR SUPERPOWER <span>→</span></a></div></div></div></section>
 
-    <section className="section faq-section" id="faq"><div className="section-label"><span>04</span><span>FAQ</span></div><div className="faq-layout"><div><h2>WHAT THE<br /><em>SPONSOR</em><br />NEEDS TO KNOW.</h2></div><div className="faq-list">{faqs.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></div></section>
+    <section className="section faq-section" id="faq"><div className="section-label"><span>04</span><span>FAQ</span></div><div className="faq-layout"><div><h2>WHAT<br /><em>YOU</em><br />NEED TO KNOW.</h2></div><div className="faq-list">{faqs.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></div></section>
 
-    <section className="book-section" id="book"><div className="eyebrow">StackDaily / Next step</div><h2>MAKE YOUR BOOTH<br />YOUR <em>SUPERPOWER.</em></h2><p>Bring the event, the product and the audience. We’ll map the activation.</p><a className="button button-light" href="/book">TALK TO US TO MAKE YOUR BOOTH YOUR SUPERPOWER <span>→</span></a><small>Demo flow. Sponsor-specific content and rewards are agreed before launch.</small></section>
+    <section className="book-section" id="book"><div className="eyebrow">StackDaily / Next step</div><h2>MAKE YOUR BOOTH<br />YOUR <em>SUPERPOWER.</em></h2><p>Bring the event, the product and the audience. We’ll map the activation.</p><a className="button button-light" href="/book">TALK TO US TO MAKE YOUR BOOTH YOUR SUPERPOWER <span>→</span></a><small>Demo flow. Your content and rewards are agreed before launch.</small></section>
 
     <footer><a className="wordmark" href="#top" aria-label="StackDaily"><span>stac<span>k</span></span><small>daily</small></a><span>EVENT ACTIVATION / 01</span></footer>
   </main>;
