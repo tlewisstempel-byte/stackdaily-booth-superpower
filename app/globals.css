@@ -42,7 +42,7 @@ h1 em, h2 em { color: #ef4538; font-style: normal; }
 .object-label, .panel-top { display: flex; justify-content: space-between; padding: 17px 20px; border-bottom: 1px solid rgba(255,255,255,.13); color: #878787; font-size: 10px; letter-spacing: .12em; }
 .object-content { position: relative; display: flex; min-height: 330px; padding: 44px 32px; flex-direction: column; justify-content: center; }
 .object-kicker, .panel-reward span, .feature-row span, .handoff-card > span { color: #ef4538; font-size: 10px; font-weight: 700; letter-spacing: .12em; }
-.object-content strong { margin: 18px 0 20px; font-size: clamp(42px, 5vw, 70px); line-height: .86; letter-spacing: -.08em; }
+.object-content strong { display: block; max-width: 100%; margin: 18px 0 20px; font-size: clamp(34px, 4vw, 54px); line-height: .88; letter-spacing: -.075em; }
 .object-content small { color: #9d9d9d; font-size: 12px; }
 .object-footer { display: flex; justify-content: space-between; align-items: center; padding: 18px 22px; border-top: 1px solid rgba(255,255,255,.12); color: #aaa; font-size: 11px; }
 .object-footer b { color: #ef4538; font-size: 23px; font-weight: 400; }
