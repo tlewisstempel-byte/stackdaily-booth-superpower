@@ -58,6 +58,10 @@ h1 em, h2 em { color: #ef4538; font-style: normal; }
 .feature-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 42px 0 32px; }
 .feature-row > div { min-height: 145px; padding: 18px; border: 1px solid rgba(255,255,255,.12); border-radius: 12px; background: rgba(255,255,255,.025); }
 .feature-row p { margin: 18px 0 0; color: #a6a6a6; font-size: 13px; line-height: 1.4; }
+.value-list { display: grid; gap: 14px; margin: 34px 0 34px; padding: 0; color: #c0bfbb; font-size: 18px; line-height: 1.35; list-style: none; }
+.value-list li { display: flex; align-items: baseline; gap: 12px; }
+.value-list li::before { content: "→"; color: #ef4538; }
+.value-list span { color: #ef4538; font-size: 10px; font-weight: 700; letter-spacing: .12em; }
 .cta-row { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
 .text-cta { color: #f1f0ec; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-decoration: none; }
 .activation-section { background: radial-gradient(50% 50% at 84% 46%, rgba(239,69,56,.08), transparent 70%); }
