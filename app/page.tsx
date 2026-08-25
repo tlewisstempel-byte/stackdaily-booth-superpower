@@ -11,7 +11,7 @@ const paths: Record<PathId, { label: string; title: string; copy: string; action
 };
 
 const faqs = [
-  ["What problem does this solve?", "You spend serious money to get people to your booth. They leave, and you often lose that value once they leave. We build what happens next."],
+  ["What problem does this solve?", "You spend serious money to get people to your booth. We segment each visitor by what they want and what they can offer you. They get a path and reward that fit them. You get a useful action back."],
   ["What does StackDaily build?", "We build your campaign page, QR flow, action and reward. You tell us what you want people to do after your booth."],
   ["How does this sit alongside event quest tools?", "Quest tools help people check in and collect things at events. We build your campaign around your booth so people complete an action for you after they leave."],
   ["What does your team do on event day?", "Put your QR code where people can see it and tell people to choose a path. We handle everything digitally."]
