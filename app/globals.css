@@ -27,6 +27,7 @@ h1 em, h2 em { color: #ef4538; font-style: normal; }
 .hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: clamp(26px, 5vw, 76px); align-items: start; min-height: 490px; padding-top: 26px; }
 .hero-copy-block { position: relative; z-index: 1; max-width: 800px; margin: 0; padding-top: 24px; text-align: center; }
 .hero-copy-block h1 { margin-left: auto; margin-right: auto; }
+.hero-copy-block h1 em { display: block; margin-top: .1em; }
 .hero-copy-block .hero-copy { margin-left: auto; margin-right: auto; }
 .hero-copy-block .button { margin-left: auto; margin-right: auto; }
 .hero-copy, .section-lead { max-width: 600px; color: #c0bfbb; font-size: clamp(18px, 1.7vw, 23px); line-height: 1.35; letter-spacing: -.025em; }
